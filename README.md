@@ -136,7 +136,7 @@ Decompress empty string:
 2) For each pair of characters, the character is multiplied by the repetition count and appended to the result string.
 3) Similar to the compression method, the edge case of an empty string is checked at the start, and and empty string is returned.
 
-### Conclusion
+## Conclusion
 
 Both Java and Python do a great job at solving the task of compressing and decompressing strings, but each language has its own strengths.
 
