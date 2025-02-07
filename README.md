@@ -1,4 +1,4 @@
-# Python-v.-Java---Resolving-the-Same-Task-with-Two-Different-Languages
+# Java-v.-Python---Resolving-the-Same-Task-with-Two-Different-Languages
 
 ## Overview
 This repository compares solutions for the same problem using two programming languages: Java and Python. The goal is to create a method that compresses a string by reducing sequences of repeating characters into the character followed by the number of times it repeats consecutively. Additionally, to create a decompressing method that reconstructs the original string.
