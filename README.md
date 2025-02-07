@@ -105,14 +105,21 @@ def decompress_string(word):
   return decompressed
 
 # Printing everything:
-trial = "aaabbbcccdeefgg"
-trial1 = ""
-print(f"Compress aaabbbcccdeefgg: {compress_string(trial)}")
-print(f"Compress empty string: {compress_string(trial1)}")
-trial_d = "a3b3c3d1e2f1g2"
-trial_d1 = ""
-print(f"Decompress a3b3c3d1e2f1g2: {decompress_string(trial_d)}")
-print(f"Decompress empty string: {decompress_string(trial_d1)}")
+example1 = "aaabbbcccdeefgg"
+example2 = "a3b3c3d1e2f1g2"
+example3 = ""
+print(f"Compress aaabbbcccdeefgg: {compress_string(example1)}")
+print(f"Compress empty string: {compress_string(example3)}")
+print(f"Decompress a3b3c3d1e2f1g2: {decompress_string(example2)}")
+print(f"Decompress empty string: {decompress_string(example3)}")
+````
+
+### Output (same for both codes)
+```` bash
+Compress aaabbbcccdeefgg: a3b3c3d1e2f1g2
+Compress empty string: 
+Decompress a3b3c3d1e2f1g2: aaabbbcccdeefgg
+Decompress empty string: 
 ````
 
 ## Explanation of Solution
