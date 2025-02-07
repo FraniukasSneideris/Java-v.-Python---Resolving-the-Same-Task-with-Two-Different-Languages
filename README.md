@@ -150,5 +150,5 @@ In Java, you have to write a bit more code, but this actually makes things a bit
 Python is super simple and fast to write. The way it handles things, like checking if the string is empty with `if word:`, makes the code short and easy to follow. In my opinion Python is a bit easier to write, and it might come very handy when you want to write something very fast and in a flexible manner.
 
 #### Final Thoughts
-Both languages get the job done, but they do it in different ways. Java is more structured and very clear. Python, on the other hand, is quick to write and easy to understand. Either way, the task shows can be resolved with both languages. 
+Both languages get the job done, but they do it in different ways. Java is more structured and very clear. Python, on the other hand, is quick to write and easy to understand. Either way, the task can be resolved with either language. 
 Maybe one "strategic" move might be to write first the code with python, just to get the idea down, and then translate it to Java.. Or maybe that's just me!
