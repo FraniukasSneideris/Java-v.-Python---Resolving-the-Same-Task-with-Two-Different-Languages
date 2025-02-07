@@ -79,6 +79,7 @@ public class Main {
 
 ### Python Code
 ```` python
+# Compressing
 def compress_string(word):
   compressed = ""
   num = 1
@@ -95,6 +96,7 @@ def compress_string(word):
   
   return compressed
 
+# Decompressing
 def decompress_string(word):
   decompressed = ""
   
@@ -104,6 +106,7 @@ def decompress_string(word):
 
   return decompressed
 
+# Using the functions
 example1 = "aaabbbcccdeefgg"
 example2 = "a3b3c3d1e2f1g2"
 example3 = ""
