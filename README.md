@@ -106,7 +106,7 @@ def decompress_string(word):
 
   return decompressed
 
-# Using the functions
+# Printing examples
 example1 = "aaabbbcccdeefgg"
 example2 = "a3b3c3d1e2f1g2"
 example3 = ""
