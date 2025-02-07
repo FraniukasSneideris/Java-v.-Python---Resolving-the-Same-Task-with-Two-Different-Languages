@@ -27,7 +27,21 @@ For the decompression task:
 - `"a1b1c1"` → `"abc"`
 - `""` → `""`
 
-## Code
+## Resolution
+
+## General approach
+
+### Compression Method
+1) The main idea is to iterate through the string and compare each character with the next one. If the characters are the same, the count is increased (num).
+2) When the characters are different, the current character and its count (num) are appeneded to the compressed string and reset the count (num) to 1.
+3) Edge cases of empty strings are handled at the start by checking if the input is empty and returning an empty string immediately, and and empty string is returned.
+
+### Decompression Method
+1) This method iterates over the input string, where every two characters represent a character and its corresponding repetition count.
+2) For each pair of characters, the character is multiplied by the repetition count and appended to the result string.
+3) Similar to the compression method, the edge case of an empty string is checked at the start, and and empty string is returned.
+
+## Code 
 
 ### Java Code
 ```` java
@@ -116,25 +130,13 @@ print(f"Decompress a3b3c3d1e2f1g2: {decompress_string(example2)}")
 print(f"Decompress empty string: {decompress_string(example3)}")
 ````
 
-### Output (same for both codes)
+### Output (same for both scripts)
 ```` bash
 Compress aaabbbcccdeefgg: a3b3c3d1e2f1g2
 Compress empty string: 
 Decompress a3b3c3d1e2f1g2: aaabbbcccdeefgg
 Decompress empty string: 
 ````
-
-## Explanation of Solution
-
-### Compression Method
-1) The main idea is to iterate through the string and compare each character with the next one. If the characters are the same, the count is increased (num).
-2) When the characters are different, the current character and its count (num) are appeneded to the compressed string and reset the count (num) to 1.
-3) Edge cases of empty strings are handled at the start by checking if the input is empty and returning an empty string immediately, and and empty string is returned.
-
-### Decompression Method
-1) This method iterates over the input string, where every two characters represent a character and its corresponding repetition count.
-2) For each pair of characters, the character is multiplied by the repetition count and appended to the result string.
-3) Similar to the compression method, the edge case of an empty string is checked at the start, and and empty string is returned.
 
 ## Conclusion
 
