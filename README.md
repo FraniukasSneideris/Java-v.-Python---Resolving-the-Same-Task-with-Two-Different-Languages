@@ -3,7 +3,7 @@
 ## Overview
 This repository compares solutions for the same problem using two programming languages: Java and Python. The goal is to create a method that compresses a string by reducing sequences of repeating characters into the character followed by the number of times it repeats consecutively. Additionally, to create a decompressing method that reconstructs the original string.
 
-The task was actually thought to be resolved using Java, but I thought it would be interesting to resolve the task using Python also, since for me it's easier to approach the task with Python first, since it's a bit more flexible and easy to write, and then translate those same ideas into Java.
+The task was actually thought to be resolved using Java, but I thought it would be interesting to resolve the task using Python also, since for me it's easier to approach the task with Python first, because it's a bit more flexible and easy to write, and then translate those same ideas into Java.
 
 ## Task Description
 
